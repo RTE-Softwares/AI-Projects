@@ -1,0 +1,9 @@
+PyGObject==3.44.2
+playsound
+pyaudio
+wave
+langchain
+python-dotenv
+langchain
+numpy
+openai
