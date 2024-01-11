@@ -2,7 +2,7 @@
 
 ## AI-Portfolio
 
-#### A repository to learn and showcase my skills in Machine Learning, Deep Learning, and Natural Language Processing.
+#### A repository to learn and showcase my skills in Langchain, Deep Learning,Prompting Techniques ,and Natural Language Processing.
 
 
 ## Projects
@@ -11,10 +11,10 @@
 
 | Name                         | Description |
 |------------------------------|-------------|
-| AI Call Assitant Bot         |  AI call assitant which simulate a highly engaging and interactive phone call experience based on your instructions
-| Image To Html | A chatbot that will provide you Html code based on the input image of a website. |
-| Speech To Conversation and identifier      |A chatbot that takes call recording as a input and gives you the output in a chat form . |
-| SQL Query Builder and Data Fetching Tool                    |This chatbot uses MySQL database to create SQL queries from natural language input and fetch data from the database.  |
-| Talk To Vector DB             |A chatbot that will talk to vactor database and will provide you the best results based on your requirements |
-| Youtube Link Generator Bot            | A Chatbot that will find suitable youtube video links based on your descriptions. |
+| AI Call Assitant Bot         |  An AI call assistant that creates immersive and interactive phone call experiences according to your instructions, bringing engagement to the forefront.
+| Image To Html |This cutting-edge tool simplifies web development, enabling seamless conversion of design concepts into functional web pages with precision and ease, all based on images. |
+| Speech To Conversation and identifier      |This innovative tool converts spoken conversations into written dialogues, offering a convenient way to interact with and review call content.. |
+| SQL Query Builder and Data Fetching Tool                    |This chatbot harnesses MySQL to effortlessly convert natural language input into SQL queries and fetch data from the database..  |
+| Talk To Vector DB             |A chatbot seamlessly interacting with vector databases, capable of presenting you with the finest results aligned precisely with your unique preferences and needs. |
+| Youtube Link Generator Bot            | A YouTube chatbot adept at finding and offering precisely matching video links based on your descriptions.. |
 
