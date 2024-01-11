@@ -2,7 +2,7 @@
 
 ## AI-Portfolio
 
-#### A repository to learn and showcase my skills in Langchain, Deep Learning,Prompting Techniques ,and Natural Language Processing.
+#### A repository to learn and showcase our skills in Langchain, Deep Learning, Prompting Techniques and Natural Language Processing.
 
 
 ## Projects
