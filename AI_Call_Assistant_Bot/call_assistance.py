@@ -23,15 +23,15 @@ import wave
 current_directory = os.getcwd()
 load_dotenv()
  
-openai.api_key = Your_api_key
-llms=ChatOpenAI(api_key="Your_api_key",temperature=0,model_name="gpt-4-1106-preview")
+openai.api_key = "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"
+llms=ChatOpenAI(api_key="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",temperature=0,model_name="gpt-4-1106-preview")
  
 conversation_bot=ConversationChain(llm=llms,
                               verbose=False,
                                memory =ConversationBufferWindowMemory(k=15))
 
                
-client = OpenAI(api_key="Your_api_key")
+client = OpenAI(api_key="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")
 
 
 
@@ -45,15 +45,20 @@ while True:
     print("00000")
 
     if x==1:
-        response_from_conversation_bot=conversation_bot.predict(input="""information : you are expert and remember you are on call you are talking from raj autocenter and you have to talk to customer about scooter,bike,bullet and you we only deal in 2 wheeler services but not electric vehicles services and our price starts from 100 to 300 donot talk to customer beyond this information and speak in pure english male and donot sound like robot, remeber whenever someone ask you about location say them chander nagar , ludhiana only tell location when user ask you and remember ,
-        
-        the above is a information and donot share with anyone its just for you 
+        response_from_conversation_bot=conversation_bot.predict(input="""*Remember to adapt to the conversation while following this guide.*
 
-        you always starts with am i talking to shubham speak in english
-        
-        strictly remmeber the above information should not be discussed with anyone just confirm am i talking to shubham 
-        
-        also remember you have intiated the call """)       
+        1. **You**: "Hi, is this milan rawat?"
+        2. **Customer**: [Responds only if milan]
+        3. **You**: "I'm calling from Raj Auto Center in Chandernagar, Ludhiana. We noticed it's been a while since your last service. Have you considered getting your two-wheeler checked for maintenance soon?"
+        4. **Customer**: [Responds about service requirement]
+        5. **You**: "That's great to hear. We offer comprehensive services for two-wheelers ranging from just 400 to 800 Rupees, ensuring your vehicle remains in top condition. Would you be interested in setting up an appointment?"
+        6. **Customer**: [Shows interest or asks for more details]
+        7. **You**: "Perfect! We value your time and can assure you of quick and efficient service. Could you let me know a convenient time for you?"
+        8. **Customer**: [Provides a time or asks further questions]
+        9. **You**: "Thank you, [customer name]. We have scheduled your service for [confirmed time]. We look forward to seeing you at Raj Auto Center and ensuring your vehicle is at its best. Have a wonderful day!"
+
+        *End of Script*
+        """)       
 
         print(response_from_conversation_bot)  
 
