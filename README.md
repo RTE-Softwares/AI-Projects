@@ -17,4 +17,5 @@
 | SQL Query Builder and Data Fetching Tool                    |This chatbot harnesses MySQL to effortlessly convert natural language input into SQL queries and fetch data from the database..  |
 | Talk To Vector DB             |A chatbot seamlessly interacting with vector databases, capable of presenting you with the finest results aligned precisely with your unique preferences and needs. |
 | Youtube Link Generator Bot            | A YouTube chatbot adept at finding and offering precisely matching video links based on your descriptions.. |
+| AI Model FineTuning                   | Fine-tuning GPT-3.5 with a banking support dataset enhances its capability to accurately respond to specific banking queries, making it an ideal tool for automated, context-aware customer support in the finance sector.|
 
